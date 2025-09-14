@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Gym</title>
+    <meta name="description"
+        content="Join the best fitness gym in town. Expert trainers, modern equipment, and flexible plans for all fitness levels." />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">Fitness GYM</div>
+        <button class="hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a class="btn" href="#join">Join Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="section1">
+        <div class="flex">
+            <div class="topleft flex flex-col justify-center px-2">
+                <div class="text-center">
+                    <img class="dumbellimg" src="assets/dumbell.png" alt="Dumbbell">
+                </div>
+                <h1 class="my-1 text-center">The Best Fitness Gym in Town is Here</h1>
+                <p class="text-center">Push your limits with expert trainers, state-of-the-art equipment, and
+                    personalized plans designed just for you.</p>
+                <a href="#join" class="btn large" style="margin-top: 1.5rem; align-self: center;">Get Started</a>
+            </div>
+            <div class="topright flex justify-center imgdiv">
+                <img class="gymimg" src="assets/gym.png" alt="Gym Workout">
+            </div>
+        </div>
+    </section>
+    <hr>
+
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>At Fitness GYM, we believe in a holistic approach to health. From strength training and cardio sessions to
+            yoga and nutrition guidance, we have everything you need.</p>
+    </section>
+
+    <section id="services" class="section services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Personal Training</li>
+            <li>Group Classes</li>
+            <li>Nutrition Plans</li>
+            <li>Yoga & Stretching</li>
+            <li>24/7 Access</li>
+        </ul>
+    </section>
+
+    <section id="pricing" class="section pricing">
+        <h2>Pricing Plans</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Free</h3>
+                <p class="price">₹0 <span>/month</span></p>
+                <ul>
+                    <li>1 user</li>
+                    <li>Email support</li>
+                    <li>Basic equipment access</li>
+                </ul>
+                <a href="#join" class="btn">Signup</a>
+            </div>
+            <div class="card featured">
+                <h3>Pro</h3>
+                <p class="price">₹150 <span>/month</span></p>
+                <ul>
+                    <li>5 users</li>
+                    <li>Priority support</li>
+                    <li>Full equipment access</li>
+                    <li>Group classes</li>
+                </ul>
+                <a href="#join" class="btn">Signup</a>
+            </div>
+            <div class="card">
+                <h3>Enterprise</h3>
+                <p class="price">₹500 <span>/month</span></p>
+                <ul>
+                    <li>Unlimited users</li>
+                    <li>Dedicated trainer</li>
+                    <li>Nutrition & wellness</li>
+                    <li>Exclusive classes</li>
+                </ul>
+                <a href="#join" class="btn">Signup</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="compare" class="section compare">
+        <h2>Compare Plans</h2>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Features</th>
+                        <th>Free</th>
+                        <th>Pro</th>
+                        <th>Enterprise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Public Access</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Private Sessions</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Group Classes</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Unlimited Members</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Extra Security</td>
+                        <td>No</td>
+                        <td>No</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="join" class="section join">
+        <h2>Join Us</h2>
+        <p>Ready to transform your life? Fill out the form to get started.</p>
+        <form>
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email Address" required />
+            <select required>
+                <option value="">Select Plan</option>
+                <option>Free</option>
+                <option>Pro</option>
+                <option>Enterprise</option>
+            </select>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Fitness GYM. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
